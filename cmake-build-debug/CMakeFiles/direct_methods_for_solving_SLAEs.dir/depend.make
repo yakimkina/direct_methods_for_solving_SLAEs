@@ -21,6 +21,12 @@ CMakeFiles/direct_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.o: .
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.o: ../QR_method/create_matrix.cpp
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.o: ../main.h
 
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/condition_number.cpp.o: ../condition_number.cpp
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/condition_number.cpp.o: ../main.h
+
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/inversion.cpp.o: ../inversion.cpp
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/inversion.cpp.o: ../main.h
+
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/is_degenerate.cpp.o: ../is_degenerate.cpp
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/is_degenerate.cpp.o: ../main.h
 
@@ -30,6 +36,9 @@ CMakeFiles/direct_methods_for_solving_SLAEs.dir/main.cpp.o: ../main.h
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/multiplication.cpp.o: ../main.h
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/multiplication.cpp.o: ../multiplication.cpp
 
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/norm.cpp.o: ../main.h
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/norm.cpp.o: ../norm.cpp
+
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/parser/parser.cpp.o: ../main.h
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/parser/parser.cpp.o: ../parser/parser.cpp
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/parser/parser.cpp.o: ../parser/parser.h
@@ -37,9 +46,15 @@ CMakeFiles/direct_methods_for_solving_SLAEs.dir/parser/parser.cpp.o: ../parser/p
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/print_slae.cpp.o: ../main.h
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/print_slae.cpp.o: ../print_slae.cpp
 
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/put_solution.cpp.o: ../main.h
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/put_solution.cpp.o: ../put_solution.cpp
+
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/specifications.cpp.o: ../main.h
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/specifications.cpp.o: ../specifications.cpp
+
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/subtraction.cpp.o: ../main.h
 CMakeFiles/direct_methods_for_solving_SLAEs.dir/subtraction.cpp.o: ../subtraction.cpp
 
-CMakeFiles/direct_methods_for_solving_SLAEs.dir/transpose.cpp.o: ../main.h
-CMakeFiles/direct_methods_for_solving_SLAEs.dir/transpose.cpp.o: ../transpose.cpp
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/transposition.cpp.o: ../main.h
+CMakeFiles/direct_methods_for_solving_SLAEs.dir/transposition.cpp.o: ../transposition.cpp
 

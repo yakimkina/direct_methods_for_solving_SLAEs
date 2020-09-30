@@ -10,7 +10,7 @@ VALUE_TYPE	sum(vector<VALUE_TYPE> a_i, vector<vector<VALUE_TYPE>> &b, int j, int
 	return s;
 }
 
-vector<vector<VALUE_TYPE>>	multiplication(vector<vector<VALUE_TYPE>> &a, vector<vector<VALUE_TYPE>> &b)
+vector<vector<VALUE_TYPE>>	multiply(vector<vector<VALUE_TYPE>> &a, vector<vector<VALUE_TYPE>> &b)
 {
 	vector<vector<VALUE_TYPE>> slae;
 
@@ -18,10 +18,11 @@ vector<vector<VALUE_TYPE>>	multiplication(vector<vector<VALUE_TYPE>> &a, vector<
 	int		m = a.size() - A__ID_COLUMN;
 	int		n = a[0].size() - A__B_COLUMN;
 	int		k = b[0].size() - B__B_COLUMN;
-	
+
+//	cout << m << "|" << n << "|" << k << "|" << b.size() - B__ID_COLUMN;
 	if (n != b.size() - B__ID_COLUMN)
 	{
-		cerr << "[ERROR] Multiplication stopped. Wrong dimensions." << endl;
+		cerr << "[ERROR] Умножение матриц прервано: неправильный размер матриц." << endl;
 		exit(0);
 	}
 

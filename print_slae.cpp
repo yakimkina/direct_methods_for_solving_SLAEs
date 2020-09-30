@@ -1,6 +1,6 @@
 #include "main.h"
 
-void	print_vector(vector<VALUE_TYPE> &x)
+void	print_vector(vector<VALUE_TYPE> x)
 {
 	cout.precision(PREC);
 
@@ -9,7 +9,7 @@ void	print_vector(vector<VALUE_TYPE> &x)
 	cout << endl;
 }
 
-void 	print_slae(vector<vector<VALUE_TYPE>> &slae)
+void 	print_slae(vector<vector<VALUE_TYPE>> slae)
 {
 	cout.precision(PREC);
 
@@ -28,7 +28,7 @@ void 	print_slae(vector<vector<VALUE_TYPE>> &slae)
 	}
 }
 
-void	print_slae(vector<vector<VALUE_TYPE>> &slae, int size)
+void	print_slae(vector<vector<VALUE_TYPE>> slae, int size)
 {
 	cout.precision(PREC);
 	

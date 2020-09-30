@@ -1,6 +1,16 @@
 #include "main.h"
 
-vector<vector<VALUE_TYPE>>	subtraction(vector<vector<VALUE_TYPE>> &a, vector<vector<VALUE_TYPE>> &b, int m, int n)
+vector<VALUE_TYPE>	subtract_vectors(vector<VALUE_TYPE> a, vector<VALUE_TYPE> b, int n)
+{
+	vector<VALUE_TYPE> tmp;
+
+	for (int i = 0; i < n; i++)
+		tmp.push_back(a[i] - b[i]);
+
+	return tmp;
+}
+
+vector<vector<VALUE_TYPE>>	subtract_matrices(vector<vector<VALUE_TYPE>> a, vector<vector<VALUE_TYPE>> b, int m, int n)
 {
 	vector<vector<VALUE_TYPE>>	slae;
 

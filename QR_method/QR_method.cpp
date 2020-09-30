@@ -14,7 +14,8 @@ vector<VALUE_TYPE>	QR_method(vector<vector<VALUE_TYPE>> slae)
 {
 	int size = slae.size() - 1;
 	
-	cout << endl << GREEN << "[QR METHOD]" << RESET << endl;
+	if (PRINT_STEPS)
+		cout << endl << GREEN << "[МЕТОД QR]" << RESET << endl;
 
 	vector<vector<VALUE_TYPE>> matR = slae;
 	vector<vector<VALUE_TYPE>> matT = create_T(size);
@@ -23,26 +24,35 @@ vector<VALUE_TYPE>	QR_method(vector<vector<VALUE_TYPE>> slae)
 	/* check if matrix is degenerate */
 	if (is_degenerate(matR, size))
 	{
-		cout << RED << "[ERROR] Matrix is degenerate!" << RESET << endl;
+		cout << RED << "[ERROR] Матрица вырождена!" << RESET << endl;
 		return vector<VALUE_TYPE>(0);
 	}
 
-	cout << endl << MAGENTA << "R matrix:" << RESET << endl;
-	print_slae(matR);
+	if (PRINT_STEPS)
+	{
+		cout << endl << MAGENTA << "[МЕТОД QR] Матрица R:" << RESET << endl;
+		print_slae(matR);
+	}
 
 	vector<vector<VALUE_TYPE>>	matQ = transpose(matT);
 
-	cout << endl << MAGENTA << "Q matrix:" << RESET << endl;
-	print_slae(matQ, matQ.size());
+	if (PRINT_STEPS)
+	{
+		cout << endl << MAGENTA << "[МЕТОД QR] Матрица Q:" << RESET << endl;
+		print_slae(matQ, matQ.size());
+	}
 
-	/* check if QR == A */
+	if (PRINT_CHECK)
+	{
+		/* check if QR == A */
 
-//	make in class: if (A == multiplication(matQ, matR))
+//		make in class: if (A == multiplication(matQ, matR))
 
-	cout << endl << YELLOW << "[check] A - QR:" << endl << "A:" << RESET << endl;
-	vector<vector<VALUE_TYPE>>	matA = multiplication(matQ, matR);
-	vector<vector<VALUE_TYPE>>	delta = subtraction(slae, matA, size, size);
-	print_slae(delta, delta.size());
+		cout << endl << YELLOW << "[проверка] A - QR:" << endl << "A:" << RESET << endl;
+		vector<vector<VALUE_TYPE>>	matA = multiply(matQ, matR);
+		vector<vector<VALUE_TYPE>>	delta = subtract_matrices(slae, matA, size, size);
+		print_slae(delta, delta.size());
+	}
 
 	reverse_traverse(matR, size);
 

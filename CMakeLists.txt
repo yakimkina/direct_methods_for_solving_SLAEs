@@ -8,4 +8,4 @@ add_executable(direct_methods_for_solving_SLAEs
 		parser/parser.cpp parser/parser.h
 		print_slae.cpp
 		Gauss_method/Gauss_method.h Gauss_method/Gauss_method.cpp
-		Gauss_method/direct_traverse.cpp Gauss_method/reverse_traverse.cpp QR_method/QR_method.cpp QR_method/QR_method.h QR_method/create_matrix.cpp transpose.cpp multiplication.cpp is_degenerate.cpp subtraction.cpp)
+		Gauss_method/direct_traverse.cpp Gauss_method/reverse_traverse.cpp QR_method/QR_method.cpp QR_method/QR_method.h QR_method/create_matrix.cpp transposition.cpp multiplication.cpp is_degenerate.cpp subtraction.cpp put_solution.cpp specifications.cpp norm.cpp inversion.cpp condition_number.cpp)

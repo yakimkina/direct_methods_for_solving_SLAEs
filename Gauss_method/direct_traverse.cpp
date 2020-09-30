@@ -44,7 +44,7 @@ cell	search_leading_element(vector<vector<VALUE_TYPE>> &slae, int k, int size)
 
 	if (abs(max.value) < PREC_ZERO)
 	{
-		cout << RED << "[ERROR] Matrix is degenerate!" << RESET << endl;
+		cout << RED << "[ERROR] Матрица вырождена!" << RESET << endl;
 		max.value = 0;
 	}
 	

@@ -278,6 +278,60 @@ QR_method/create_matrix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/QR_method/create_matrix.cpp.s
 .PHONY : QR_method/create_matrix.cpp.s
 
+condition_number.o: condition_number.cpp.o
+
+.PHONY : condition_number.o
+
+# target to build an object file
+condition_number.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/condition_number.cpp.o
+.PHONY : condition_number.cpp.o
+
+condition_number.i: condition_number.cpp.i
+
+.PHONY : condition_number.i
+
+# target to preprocess a source file
+condition_number.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/condition_number.cpp.i
+.PHONY : condition_number.cpp.i
+
+condition_number.s: condition_number.cpp.s
+
+.PHONY : condition_number.s
+
+# target to generate assembly for a file
+condition_number.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/condition_number.cpp.s
+.PHONY : condition_number.cpp.s
+
+inversion.o: inversion.cpp.o
+
+.PHONY : inversion.o
+
+# target to build an object file
+inversion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/inversion.cpp.o
+.PHONY : inversion.cpp.o
+
+inversion.i: inversion.cpp.i
+
+.PHONY : inversion.i
+
+# target to preprocess a source file
+inversion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/inversion.cpp.i
+.PHONY : inversion.cpp.i
+
+inversion.s: inversion.cpp.s
+
+.PHONY : inversion.s
+
+# target to generate assembly for a file
+inversion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/inversion.cpp.s
+.PHONY : inversion.cpp.s
+
 is_degenerate.o: is_degenerate.cpp.o
 
 .PHONY : is_degenerate.o
@@ -359,6 +413,33 @@ multiplication.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/multiplication.cpp.s
 .PHONY : multiplication.cpp.s
 
+norm.o: norm.cpp.o
+
+.PHONY : norm.o
+
+# target to build an object file
+norm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/norm.cpp.o
+.PHONY : norm.cpp.o
+
+norm.i: norm.cpp.i
+
+.PHONY : norm.i
+
+# target to preprocess a source file
+norm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/norm.cpp.i
+.PHONY : norm.cpp.i
+
+norm.s: norm.cpp.s
+
+.PHONY : norm.s
+
+# target to generate assembly for a file
+norm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/norm.cpp.s
+.PHONY : norm.cpp.s
+
 parser/parser.o: parser/parser.cpp.o
 
 .PHONY : parser/parser.o
@@ -413,6 +494,60 @@ print_slae.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/print_slae.cpp.s
 .PHONY : print_slae.cpp.s
 
+put_solution.o: put_solution.cpp.o
+
+.PHONY : put_solution.o
+
+# target to build an object file
+put_solution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/put_solution.cpp.o
+.PHONY : put_solution.cpp.o
+
+put_solution.i: put_solution.cpp.i
+
+.PHONY : put_solution.i
+
+# target to preprocess a source file
+put_solution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/put_solution.cpp.i
+.PHONY : put_solution.cpp.i
+
+put_solution.s: put_solution.cpp.s
+
+.PHONY : put_solution.s
+
+# target to generate assembly for a file
+put_solution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/put_solution.cpp.s
+.PHONY : put_solution.cpp.s
+
+specifications.o: specifications.cpp.o
+
+.PHONY : specifications.o
+
+# target to build an object file
+specifications.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/specifications.cpp.o
+.PHONY : specifications.cpp.o
+
+specifications.i: specifications.cpp.i
+
+.PHONY : specifications.i
+
+# target to preprocess a source file
+specifications.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/specifications.cpp.i
+.PHONY : specifications.cpp.i
+
+specifications.s: specifications.cpp.s
+
+.PHONY : specifications.s
+
+# target to generate assembly for a file
+specifications.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/specifications.cpp.s
+.PHONY : specifications.cpp.s
+
 subtraction.o: subtraction.cpp.o
 
 .PHONY : subtraction.o
@@ -440,32 +575,32 @@ subtraction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/subtraction.cpp.s
 .PHONY : subtraction.cpp.s
 
-transpose.o: transpose.cpp.o
+transposition.o: transposition.cpp.o
 
-.PHONY : transpose.o
+.PHONY : transposition.o
 
 # target to build an object file
-transpose.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/transpose.cpp.o
-.PHONY : transpose.cpp.o
+transposition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/transposition.cpp.o
+.PHONY : transposition.cpp.o
 
-transpose.i: transpose.cpp.i
+transposition.i: transposition.cpp.i
 
-.PHONY : transpose.i
+.PHONY : transposition.i
 
 # target to preprocess a source file
-transpose.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/transpose.cpp.i
-.PHONY : transpose.cpp.i
+transposition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/transposition.cpp.i
+.PHONY : transposition.cpp.i
 
-transpose.s: transpose.cpp.s
+transposition.s: transposition.cpp.s
 
-.PHONY : transpose.s
+.PHONY : transposition.s
 
 # target to generate assembly for a file
-transpose.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/transpose.cpp.s
-.PHONY : transpose.cpp.s
+transposition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/direct_methods_for_solving_SLAEs.dir/build.make CMakeFiles/direct_methods_for_solving_SLAEs.dir/transposition.cpp.s
+.PHONY : transposition.cpp.s
 
 # Help Target
 help:
@@ -491,6 +626,12 @@ help:
 	@echo "... QR_method/create_matrix.o"
 	@echo "... QR_method/create_matrix.i"
 	@echo "... QR_method/create_matrix.s"
+	@echo "... condition_number.o"
+	@echo "... condition_number.i"
+	@echo "... condition_number.s"
+	@echo "... inversion.o"
+	@echo "... inversion.i"
+	@echo "... inversion.s"
 	@echo "... is_degenerate.o"
 	@echo "... is_degenerate.i"
 	@echo "... is_degenerate.s"
@@ -500,18 +641,27 @@ help:
 	@echo "... multiplication.o"
 	@echo "... multiplication.i"
 	@echo "... multiplication.s"
+	@echo "... norm.o"
+	@echo "... norm.i"
+	@echo "... norm.s"
 	@echo "... parser/parser.o"
 	@echo "... parser/parser.i"
 	@echo "... parser/parser.s"
 	@echo "... print_slae.o"
 	@echo "... print_slae.i"
 	@echo "... print_slae.s"
+	@echo "... put_solution.o"
+	@echo "... put_solution.i"
+	@echo "... put_solution.s"
+	@echo "... specifications.o"
+	@echo "... specifications.i"
+	@echo "... specifications.s"
 	@echo "... subtraction.o"
 	@echo "... subtraction.i"
 	@echo "... subtraction.s"
-	@echo "... transpose.o"
-	@echo "... transpose.i"
-	@echo "... transpose.s"
+	@echo "... transposition.o"
+	@echo "... transposition.i"
+	@echo "... transposition.s"
 .PHONY : help
 
 
