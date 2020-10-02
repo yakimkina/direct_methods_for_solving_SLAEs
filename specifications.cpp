@@ -33,10 +33,19 @@ void	method_specification(vector<vector<VALUE_TYPE>> slae, int size, vector<VALU
 
 	/* condition number evaluation */
 	cout.precision(PREC);
-	cond_with_cell cond = evaluate_condition_number(slae, size, solution, method);
-	cout << endl << MAGENTA << "cond A >= " << RESET << cond.max_cond << endl;
-	cout << MAGENTA << "b[" << cond.b.i << "][" << cond.b.j << "] = " << RESET << cond.b.value << " ";
-	(cond.dist > 0) ? cout << "+ " : cout << "- ";
-	cout << abs(cond.dist) << endl;
+
+	/* norm_1 */
+	cond_with_cell cond_1 = evaluate_condition_number(slae, size, solution, method, vector_norm_1);
+	cout << endl << MAGENTA << "cond_1 A >= " << RESET << cond_1.max_cond << endl;
+	cout << MAGENTA << "b[" << cond_1.b.i << "] = " << RESET << cond_1.b.value << " ";
+	(cond_1.dist > 0) ? cout << "+ " : cout << "- ";
+	cout << abs(cond_1.dist) << endl;
+
+	/* norm_inf */
+	cond_with_cell cond_inf = evaluate_condition_number(slae, size, solution, method, vector_norm_inf);
+	cout << endl << MAGENTA << "cond_inf A >= " << RESET << cond_inf.max_cond << endl;
+	cout << MAGENTA << "b[" << cond_inf.b.i << "] = " << RESET << cond_inf.b.value << " ";
+	(cond_inf.dist > 0) ? cout << "+ " : cout << "- ";
+	cout << abs(cond_inf.dist) << endl;
 }
 

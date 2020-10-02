@@ -19,6 +19,7 @@
 // или
 // vector<vector<mytype» init_matrix(matrix.size()(matrix[0].size() - 1));
 // переписать комментарии и вывод на русский
+
 void	print_info()
 {
 	cout << endl << MAGENTA << "Программа решения СЛАУ методом Гаусса(с полным выбором главного элемента) и методом QR разложения." << endl;

@@ -15,6 +15,7 @@
 #define PREC	4
 #define PREC_ZERO	0.000001
 #define WITHOUT_IDS	1
+#define DELTA_B	0.01 // оценка числа обусловленности
 
 /* multiplication */
 #define A__ID_COLUMN	0
@@ -71,14 +72,17 @@ vector<vector<VALUE_TYPE>>	inverse(vector<vector<VALUE_TYPE>> slae, int size, ve
 vector<vector<VALUE_TYPE>>	subtract_matrices(vector<vector<VALUE_TYPE>> a, vector<vector<VALUE_TYPE>> b, int m, int n);
 
 VALUE_TYPE		get_condition_number(vector<vector<VALUE_TYPE>> slae, vector<vector<VALUE_TYPE>> inverse_slae, int size, VALUE_TYPE (*norm)(vector<vector<VALUE_TYPE>>, int));
-cond_with_cell	evaluate_condition_number(vector<vector<VALUE_TYPE>> slae, int size, vector<VALUE_TYPE> solution, vector<VALUE_TYPE> (*method)(vector<vector<VALUE_TYPE>>));
+cond_with_cell	evaluate_condition_number(vector<vector<VALUE_TYPE>> slae, int size, vector<VALUE_TYPE> solution, vector<VALUE_TYPE> (*method)(vector<vector<VALUE_TYPE>>), VALUE_TYPE (*norm)(vector<VALUE_TYPE>, int));
 
 vector<VALUE_TYPE>	subtract_vectors(vector<VALUE_TYPE> a, vector<VALUE_TYPE> b, int n);
 vector<VALUE_TYPE>	put_solution(vector<vector<VALUE_TYPE>> slae, int size, vector<VALUE_TYPE> x);
 
 VALUE_TYPE	vector_norm(vector<VALUE_TYPE> x, int size);
+
 VALUE_TYPE	norm_1(vector<vector<VALUE_TYPE>> slae, int size);
+VALUE_TYPE	vector_norm_1(vector<VALUE_TYPE> x, int size);
 VALUE_TYPE	norm_inf(vector<vector<VALUE_TYPE>> slae, int size);
+VALUE_TYPE	vector_norm_inf(vector<VALUE_TYPE> x, int size);
 
 bool	is_degenerate(vector<vector<VALUE_TYPE>> &slae, int size);
 
